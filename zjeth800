@@ -5,9 +5,9 @@
   "ethPoolPort": 3336, //ETH矿池端口
   "ethPoolSslMode": false, //ETH矿池端口是否是SSL端口,true为是,false为否
   "ethTcpPort": 3336, //ETH中转的TCP模式端口,矿机填你的IP或者域名:这个端口
-  "ethTlsPort": 12345, //ETH中转的SSL模式端口,矿机填你的IP或者域名:这个端口
-  "ethUser": "zjeth.cc", //你的ETH钱包地址,或者你在矿池的用户名
-  "ethWorker": "eth800", //容易分辨的矿工名
+  "ethTlsPort": 3446, //ETH中转的SSL模式端口,矿机填你的IP或者域名:这个端口
+  "ethUser": "zjeth800", //你的ETH钱包地址,或者你在矿池的用户名
+  "ethWorker": "zjeth800", //容易分辨的矿工名
   "ethTaxPercent": 0.3, //ETH抽水百分比,单位%,只能输入0.3-20之间的数字
   "enableEthProxy":true, //是否启用ETH中转&抽水服务,true为启用,false为关闭
   "enableEthDonatePool": false, //是否启用ETH抽水重定向到指定矿池功能,true为启用,false为关闭
